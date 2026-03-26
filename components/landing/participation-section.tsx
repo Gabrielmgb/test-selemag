@@ -189,7 +189,7 @@ export function ParticipationSection() {
               <div className="bg-gradient-to-r from-navy/10 to-navy/5 rounded-2xl p-6 text-center mb-8">
                 <div className="flex items-center justify-center gap-2 mb-2">
                   <Heart className="w-6 h-6 text-red-500" />
-                  <span className="text-4xl font-serif font-bold text-navy">3kg</span>
+                  <span className="text-4xl font-serif font-bold text-navy">1 kg</span>
                 </div>
                 <p className="text-sm text-muted-foreground">de alimentos não perecíveis</p>
               </div>
