@@ -13,12 +13,14 @@ import {
   Lightbulb,
 } from "lucide-react";
 
+// e realizar tarefas até o fim.
+
 const painPoints = [
   {
     icon: Brain,
     title: "Falta de Foco",
     description:
-      "Dificuldade em manter a concentração durante os estudos e realizar tarefas até o fim.",
+      "Dificuldade em manter a concentração durante os estudos.",
     color: "from-blue-500/20 to-indigo-500/20",
     iconColor: "text-blue-600",
   },
