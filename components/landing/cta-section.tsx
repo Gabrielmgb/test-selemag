@@ -133,6 +133,27 @@ export function CtaSection() {
             ))}
           </motion.div>
 
+          {/* Scholarship highlight */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.45 }}
+            className="mb-8"
+          >
+            <div className="inline-flex items-center gap-3 bg-gradient-to-r from-gold/20 via-gold/10 to-gold/20 border border-gold/40 rounded-2xl px-6 py-4 md:px-8 md:py-5">
+              <div className="flex-shrink-0 w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center">
+                <Gift className="w-6 h-6 text-gold" />
+              </div>
+              <div className="text-left">
+                <p className="text-gold font-bold text-base md:text-lg">Sorteio Exclusivo</p>
+                <p className="text-primary-foreground/80 text-sm md:text-base">
+                  Participe e concorra a uma bolsa de estudo para o colégio e nossos preparatórios militares
+                </p>
+              </div>
+            </div>
+          </motion.div>
+
           {/* CTA Button */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}

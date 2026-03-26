@@ -172,7 +172,7 @@ export function HeroSection() {
                   />
 
                   {/* OVERLAY (mantém o estilo escuro elegante) */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-navy/70 via-navy/60 to-navy/70" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-navy/70 via-navy/10 to-navy/70" />
                 </div>
 
                 {/* Bottom Info Overlay */}
