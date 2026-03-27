@@ -17,7 +17,7 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-navy">
       {/* Background Pattern */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(212,175,55,0.15),transparent_50%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(212,175,55,0.1),transparent_50%)]" />
         <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.3)_100%)]" />
@@ -100,14 +100,13 @@ export function HeroSection() {
                 size="lg"
                 className="cursor-pointer bg-gold hover:bg-gold/90 text-navy font-bold text-lg px-10 py-7 rounded-full shadow-xl shadow-gold/25 transition-all duration-300 hover:scale-105 hover:shadow-gold/40"
                 onClick={() =>
-                  document
-                    .getElementById("inscricao")
-                    ?.scrollIntoView({ behavior: "smooth" })
+                  window.open("https://forms.gle/a1ryBxp67CfJy1K87", "_blank")
                 }
               >
                 Garantir minha vaga
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
+
               {/* <Button
                 size="lg"
                 variant="outline"

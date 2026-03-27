@@ -9,7 +9,7 @@ const galleryImages = [
     label: "Palestras Inspiradoras",
     description: "Momentos de transformação",
     icon: Users,
-    image: "./img-13.jpeg",
+    image: "./img-19.jpg",
     size: "lg:col-span-2 lg:row-span-2",
     minHeight: "min-h-[280px] lg:min-h-[400px]"
   },
@@ -36,7 +36,7 @@ const galleryImages = [
     label: "Workshops Práticos",
     description: "Ferramentas para o sucesso",
     icon: Calendar,
-    image: "./img-15.jpeg",
+    image: "./img-13.jpeg",
     size: "lg:col-span-1 lg:row-span-1",
     minHeight: "min-h-[180px] lg:min-h-[190px]"
   },
@@ -54,7 +54,7 @@ const galleryImages = [
   //   label: "Momentos Especiais",
   //   description: "Memórias inesquecíveis",
   //   icon: Heart,
-  //   image: "/img-1.jpeg",
+  //   image: "/img-13.jpeg",
   //   size: "lg:col-span-2 lg:row-span-1",
   //   minHeight: "min-h-[180px] lg:min-h-[190px]"
   // }

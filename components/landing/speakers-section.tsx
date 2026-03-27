@@ -28,7 +28,7 @@ const speaker = {
   experiencia: [
     "Peacekeeper ONU - Sudão do Sul - 2013",
     "Professor de Direito Constitucional (2001/10)",
-    "Negociador policial 2 PMDF - Turma - 2006",
+    "Negociador policial 2 Polícia Militar do Distrito Federal - Turma - 2006",
     "Aprovado no Exame 42 OAB/2025",
   ],
   linkedin: "#",
@@ -224,13 +224,13 @@ export function SpeakersSection() {
                     <span className="text-sm text-white/60">
                       Redes sociais:
                     </span>
-                    <a
+                    {/* <a
                       href={speaker.linkedin}
                       className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold/20 transition-colors cursor-pointer border border-white/10 hover:border-gold/30"
                       aria-label="LinkedIn"
                     >
                       <Linkedin className="w-5 h-5 text-white/70 hover:text-gold" />
-                    </a>
+                    </a> */}
                     <a
                       href={speaker.instagram}
                       className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold/20 transition-colors cursor-pointer border border-white/10 hover:border-gold/30"

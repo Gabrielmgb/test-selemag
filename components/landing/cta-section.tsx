@@ -6,9 +6,8 @@ import { AlertCircle, ArrowRight, Clock, Calendar, MapPin, Users, Sparkles, Shie
 
 export function CtaSection() {
   const handleClick = () => {
-    // Redireciona para WhatsApp ou link de cadastro
-    window.open("https://wa.me/5561999999999?text=Olá! Gostaria de garantir minha vaga no evento.", "_blank")
-  }
+  window.open("https://forms.gle/a1ryBxp67CfJy1K87", "_blank")
+}
 
   return (
     <section 
