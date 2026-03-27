@@ -177,8 +177,8 @@ export function ParticipationSection() {
                   <Package className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <div>
-                  <h3 className="font-serif text-2xl font-bold text-foreground">Publico Externo</h3>
-                  <p className="text-navy font-semibold">Doacao Solidaria</p>
+                  <h3 className="font-serif text-2xl font-bold text-foreground">Público Externo</h3>
+                  <p className="text-navy font-semibold">Doação Solidária</p>
                 </div>
               </div>
 

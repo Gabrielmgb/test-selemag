@@ -206,7 +206,7 @@ export function ContactSection() {
                       </div>
                       <div>
                         <p className="text-xs text-muted-foreground uppercase tracking-wider">E-mail</p>
-                        <p className="font-semibold text-foreground text-lg">contato@selemag.com.br</p>
+                        <p className="font-semibold text-foreground text-lg">contato@magcursos.com.br</p>
                       </div>
                     </motion.a>
                   </div>

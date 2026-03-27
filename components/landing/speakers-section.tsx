@@ -16,8 +16,8 @@ import Image from "next/image";
 
 const speaker = {
   name: "Fernando Siqueira",
-  role: "Palestrante, Consultor e Advogado",
-  transicao: "Transição de carreira: Palestrante, Consultor e Advogado",
+  role: "Palestrante",
+  transicao: "Tenente-Coronel da Polícia Militar do Distrito Federal",
   formacao: [
     "Mestrado profissional em ciências policiais de segurança e ordem pública/PMESP (Academia do Barro Branco) - 2014",
     "Pesquisa em Influência Social, Liderança e Persuasão PSTO - 2017-2019 (Aluno especial). Psicologia Social, das Organizações e do Trabalho - UnB",

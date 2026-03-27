@@ -15,8 +15,8 @@ const galleryImages = [
   },
   {
     id: 2,
-    label: "Familias Unidas",
-    description: "Conexao e aprendizado",
+    label: "Famílias Unidas",
+    description: "Conexão e aprendizado",
     icon: Heart,
     image: "./img-14.jpeg",
     size: "lg:col-span-1 lg:row-span-1",
@@ -24,7 +24,7 @@ const galleryImages = [
   },
   {
     id: 3,
-    label: "Dinamicas em Grupo",
+    label: "Dinâmicas em Grupo",
     description: "Interação e crescimento",
     icon: Users,
     image: "./img-18.jpeg",
