@@ -176,7 +176,7 @@ export function GallerySection() {
 
                     <video
                       src="./convite-selemag.mp4"
-                      poster="/video-img.png"
+                      poster="./video-img.png"
                       className="w-full h-full object-cover"
                       controls
                       preload="metadata"
