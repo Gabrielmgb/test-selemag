@@ -114,7 +114,7 @@ export function SpeakersSection() {
                   {/* Imagem do Palestrante */}
                   <div className="absolute inset-0">
                     <img
-                      src="./fernando-3.JPG"
+                      src="./fernando-4.jpg"
                       alt="Foto do Palestrante"
                       className="w-full h-full object-cover"
                     />
