@@ -157,7 +157,7 @@ export function GallerySection() {
           })}
         </div>
 
-        {/* ✅ VIDEO SECTION RESTAURADA */}
+        ✅ VIDEO SECTION RESTAURADA
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -175,7 +175,7 @@ export function GallerySection() {
                   <div className="relative aspect-[9/16] rounded-2xl overflow-hidden border border-gold/20 bg-black shadow-xl">
 
                     <video
-                      src="/convite.mp4"
+                      src="/convite-selemag.mp4"
                       poster="/video-img.png"
                       className="w-full h-full object-cover"
                       controls
