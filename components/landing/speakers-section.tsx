@@ -32,7 +32,7 @@ const speaker = {
     "Aprovado no Exame 42 OAB/2025",
   ],
   linkedin: "#",
-  instagram: "#",
+  instagram: "https://www.instagram.com/fernandosiqueira.oficial?igsh=MjFhYTlwanh4ODE3",
 };
 
 export function SpeakersSection() {
@@ -233,6 +233,8 @@ export function SpeakersSection() {
                     </a> */}
                     <a
                       href={speaker.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold/20 transition-colors cursor-pointer border border-white/10 hover:border-gold/30"
                       aria-label="Instagram"
                     >

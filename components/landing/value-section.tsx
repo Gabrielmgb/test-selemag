@@ -190,12 +190,12 @@ export function ValueSection() {
                 <p className="text-primary-foreground/60 leading-relaxed">{prop.description}</p>
                 
                 {/* Bottom decoration */}
-                <div className="mt-6 pt-4 border-t border-primary-foreground/10">
+                {/* <div className="mt-6 pt-4 border-t border-primary-foreground/10">
                   <div className="flex items-center gap-2 text-gold text-sm font-medium group-hover:gap-3 transition-all duration-300 cursor-pointer">
                     <span>Saiba mais</span>
                     <ArrowRight className="w-4 h-4" />
                   </div>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}
